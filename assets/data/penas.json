@@ -2,6 +2,7 @@
   "penas": {
     "azul": {
       "atkFuria": {
+        "label": "[ATK]Furia",
         "1": {
          "atkFisico": 1,
          "atkMagico": 1,
