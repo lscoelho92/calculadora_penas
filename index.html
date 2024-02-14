@@ -18,10 +18,26 @@
   </div>
 
   <div id="selectpenas">
-    <!-- Dropdown para selecionar a label de penas -->
+    <!-- Dropdowns para selecionar as labels de penas -->
     <div>
-      <label for="labelPenas">Selecione sua Pena:</label>
-      <select id="labelPenas"></select>
+      <label for="labelPenas1">Selecione uma label de penas:</label>
+      <select id="labelPenas1"></select>
+    </div>
+    <div>
+      <label for="labelPenas2">Selecione uma label de penas:</label>
+      <select id="labelPenas2"></select>
+    </div>
+    <div>
+      <label for="labelPenas3">Selecione uma label de penas:</label>
+      <select id="labelPenas3"></select>
+    </div>
+    <div>
+      <label for="labelPenas4">Selecione uma label de penas:</label>
+      <select id="labelPenas4"></select>
+    </div>
+    <div>
+      <label for="labelPenas5">Selecione uma label de penas:</label>
+      <select id="labelPenas5"></select>
     </div>
   </div>
 
@@ -36,19 +52,21 @@
       .then((data) => {
         console.log('Dados carregados com sucesso:', data);
 
-        // Preencher a dropdown de labels
-        var labelDropdown = document.getElementById("labelPenas");
-        Object.keys(data.penas).forEach(categoria => {
-          var tiposAtaque = data.penas[categoria];
+        // Iterar sobre cada dropdown
+        for (let i = 1; i <= 5; i++) {
+          var labelDropdown = document.getElementById(`labelPenas${i}`);
+          Object.keys(data.penas).forEach(categoria => {
+            var tiposAtaque = data.penas[categoria];
 
-          // Preencher a dropdown de tipos de ataque
-          Object.keys(tiposAtaque).forEach(tipo => {
-            var optionElement = document.createElement("option");
-            optionElement.value = tipo;
-            optionElement.text = tiposAtaque[tipo].label;
-            labelDropdown.appendChild(optionElement);
+            // Preencher a dropdown de tipos de ataque
+            Object.keys(tiposAtaque).forEach(tipo => {
+              var optionElement = document.createElement("option");
+              optionElement.value = tipo;
+              optionElement.text = tiposAtaque[tipo].label;
+              labelDropdown.appendChild(optionElement);
+            });
           });
-        });
+        }
       })
       .catch(error => console.error('Erro ao carregar opções de penas:', error));
   </script>
