@@ -1,0 +1,1496 @@
+{
+  "penas": {
+    "azul": {
+      "atkFuria": {
+        "1": {
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 11
+        }
+      },
+      "defVigor": {
+        "1": {
+         "def": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "def": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "def": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "def": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "def": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "def": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "def": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "def": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "def": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "def": 1,
+          "nextLevelRequirements": 11
+        }
+      },
+      "mixEquidade": {
+        "1": {
+         "maxHp": 10,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "maxHp": 10,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "maxHp": 10,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "maxHp": 10,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "maxHp": 10,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "maxHp": 10,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "maxHp": 10,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "maxHp": 10,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "maxHp": 10,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "maxHp": 10,
+          "nextLevelRequirements": 11
+        }
+      }
+    },
+    "roxa": {
+      "atkValor": {
+        "1": {
+         "str": 1,
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "str": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 11
+        }
+    },
+      "atkGloria": {
+        "1": {
+         "dex": 1,
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "dex": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 11
+        }
+    },
+      "atkFe": {
+        "1": {
+         "int": 1,
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "int": 1,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 11
+        }
+    },
+      "defVirtude": {
+        "1": {
+         "vit": 1,
+         "maxHp": 20,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "vit": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 11
+        }
+    },
+      "defMisericordia": {
+        "1": {
+         "def": 2,
+         "maxHp": 20,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "def": 2,
+          "maxHp": 20,
+          "nextLevelRequirements": 11
+        }
+    },
+      "defAlma": {
+        "1": {
+         "def": 2,
+         "defMagica": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "def": 2,
+          "defMagica": 1,
+          "nextLevelRequirements": 11
+        }
+    },
+      "mixGraca": {
+        "1": {
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "maxHp": 20,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "maxHp": 20,
+          "nextLevelRequirements": 11
+        }
+    },
+      "mixJustica": {
+        "1": {
+         "def": 2,
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 10
+         },
+        "10": {
+          "def": 2,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 11
+        }
+    },
+      "mixVerdade": {
+        "1": {
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "atkFisico": 1,
+         "atkMagico": 1,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "atkFisico": 1,
+          "atkMagico": 1,
+          "nextLevelRequirements": 11
+        }
+    },
+      "mixOrdem": {
+        "1": {
+         "rdFisicoPercent": 0.23,
+         "rdMagicoPercent": 0.23,
+         "def": 2,
+         "nextLevelRequirements": 2
+        },
+        "2": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 3
+        },
+        "3": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 4
+        },
+        "4": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 5
+        },
+        "5": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 6
+        },
+        "6": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 7
+        },
+        "7": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 8
+        },
+        "8": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 9
+        },
+        "9": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 10
+        },
+        "10": {
+          "rdFisicoPercent": 0.23,
+          "rdMagicoPercent": 0.23,
+          "def": 2,
+          "nextLevelRequirements": 11
+        }
+    }
+   },
+    "dourada": {
+      "atkCeu": {
+        "1": {
+         "atkFisico": 2,
+         "atkMagico": 2,
+         "ignoresDef": 2,
+         "ignoresMDef": 2,
+         "nextLevelRequirements": 4
+        },
+        "2": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 6
+        },
+        "3": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 7
+        },
+        "4": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 9
+        },
+        "5": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 10
+        },
+        "6": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 12
+        },
+        "7": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 13
+        },
+        "8": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 15
+        },
+        "9": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 22
+        },
+        "10": {
+          "atkFisico": 2,
+          "atkMagico": 2,
+          "ignoresDef": 2,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 25
+        }
+    },
+      "atkDia": {
+        "1": {
+         "ignoresDef": 4,
+         "ignoresMDef": 1,
+         "pveDamage": 12,
+         "nextLevelRequirements": 4
+        },
+        "2": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 6
+        },
+        "3": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 7
+        },
+        "4": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 9
+        },
+        "5": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 10
+        },
+        "6": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 12
+        },
+        "7": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 13
+        },
+        "8": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 15
+        },
+        "9": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 22
+        },
+        "10": {
+          "ignoresDef": 4,
+          "ignoresMDef": 1,
+          "pveDamage": 12,
+          "nextLevelRequirements": 25
+        }
+    },
+      "atkTempo": {
+        "1": {
+         "pveDamage": 17,
+         "atkFisico": 7,
+         "atkMagico": 7,
+         "ignoresDef": 6,
+         "ignoresMDef": 2,
+         "nextLevelRequirements": 6
+        },
+        "2": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 8
+        },
+        "3": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 10
+        },
+        "4": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 12
+        },
+        "5": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 14
+        },
+        "6": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 16
+        },
+        "7": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 18
+        },
+        "8": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 20
+        },
+        "9": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 28
+        },
+        "10": {
+          "pveDamage": 17,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 33
+        }
+    },
+      "atkEspaco": {
+        "1": {
+         "pvpDamage": 8,
+         "atkFisico": 7,
+         "atkMagico": 7,
+         "ignoresDef": 6,
+         "ignoresMDef": 2,
+         "nextLevelRequirements": 6
+        },
+        "2": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 8
+        },
+        "3": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 10
+        },
+        "4": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 12
+        },
+        "5": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 14
+        },
+        "6": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 16
+        },
+        "7": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 18
+        },
+        "8": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 20
+        },
+        "9": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 28
+        },
+        "10": {
+          "pvpDamage": 8,
+          "atkFisico": 7,
+          "atkMagico": 7,
+          "ignoresDef": 6,
+          "ignoresMDef": 2,
+          "nextLevelRequirements": 33
+         }
+    },
+      "defTerra": {
+        "1": {
+         "def": 2,
+         "mDef": 1,
+         "maxHp": 33,
+         "nextLevelRequirements": 4
+        },
+        "2": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 6
+        },
+        "3": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 7
+        },
+        "4": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 9
+        },
+        "5": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 10
+        },
+        "6": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 12
+        },
+        "7": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 13
+        },
+        "8": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 15
+        },
+        "9": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 22
+        },
+        "10": {
+          "def": 2,
+          "mDef": 1,
+          "maxHp": 33,
+          "nextLevelRequirements": 25
+        }
+    },
+      "defNoite": {
+        "1": {
+         "def": 2,
+         "mDef": 1,
+         "pvpDamageReduction": 12,
+         "nextLevelRequirements": 4
+        },
+        "2": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 6
+        },
+        "3": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 7
+        },
+        "4": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 9
+        },
+        "5": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 10
+        },
+        "6": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 12
+        },
+        "7": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 13
+        },
+        "8": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 15
+        },
+        "9": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 22
+        },
+        "10": {
+          "def": 2,
+          "mDef": 1,
+          "pvpDamageReduction": 12,
+          "nextLevelRequirements": 25
+        }
+    },
+      "defNatureza": {
+        "1": {
+         "pveDamageReduction": 17,
+         "def": 6,
+         "mDef": 2,
+         "maxHp": 108,
+         "nextLevelRequirements": 6
+        },
+        "2": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 8
+        },
+        "3": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 10
+        },
+        "4": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 12
+        },
+        "5": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 14
+        },
+        "6": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 16
+        },
+        "7": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 18
+        },
+        "8": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 20
+        },
+        "9": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 28
+        },
+         "10": {
+          "pveDamageReduction": 17,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 33
+        }
+      },
+      "defDivino": {
+        "1": {
+         "pvpDamageReduction": 8,
+         "def": 6,
+         "mDef": 2,
+         "maxHp": 108,
+         "nextLevelRequirements": 6
+        },
+        "2": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 8
+        },
+        "3": {
+         "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 10
+        },
+        "4": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 12
+        },
+        "5": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 14
+        },
+        "6": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 16
+        },
+        "7": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 18
+        },
+        "8": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 20
+        },
+        "9": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 28
+        },
+        "10": {
+          "pvpDamageReduction": 8,
+          "def": 6,
+          "mDef": 2,
+          "maxHp": 108,
+          "nextLevelRequirements": 33
+        }
+      },
+      "mixLuz": {
+        "1": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 9
+        },
+        "2": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "nextLevelRequirements": 11
+        },
+        "3": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "nextLevelRequirements": 13
+        },
+        "4": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "atkFisicoPercent": 0.28,
+          "atkMagicoPercent": 0.28,
+          "nextLevelRequirements": 15
+        },
+        "5": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 17
+        },
+        "6": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 19
+        },
+        "7": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 21
+        },
+        "8": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 23
+        },
+        "9": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 33
+        },
+        "10": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "atkFisicoPercent": 0.28,
+         "atkMagicoPercent": 0.28,
+         "nextLevelRequirements": 38
+        }
+      },
+      "mixEscuridao": {
+        "1": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "physicalDamageReductionPercent": 0.28,
+          "magicalDamageReductionPercent": 0.28,
+          "nextLevelRequirements": 9
+        },
+        "2": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "physicalDamageReductionPercent": 0.28,
+          "magicalDamageReductionPercent": 0.28,
+          "nextLevelRequirements": 11
+        },
+        "3": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "physicalDamageReductionPercent": 0.28,
+          "magicalDamageReductionPercent": 0.28,
+          "nextLevelRequirements": 13
+        },
+        "4": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "physicalDamageReductionPercent": 0.28,
+          "magicalDamageReductionPercent": 0.28,
+          "nextLevelRequirements": 15
+        },        
+        "5": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "physicalDamageReductionPercent": 0.28,
+         "magicalDamageReductionPercent": 0.28,
+         "nextLevelRequirements": 17
+        },
+        "6": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "physicalDamageReductionPercent": 0.28,
+         "magicalDamageReductionPercent": 0.28,
+         "nextLevelRequirements": 19
+        },
+        "7": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "physicalDamageReductionPercent": 0.28,
+         "magicalDamageReductionPercent": 0.28,
+         "nextLevelRequirements": 21
+        },
+        "8": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "physicalDamageReductionPercent": 0.28,
+         "magicalDamageReductionPercent": 0.28,
+         "nextLevelRequirements": 23
+        },
+        "9": {
+          "pvpDamage": 11,
+          "pvpDamageReduction": 11,
+          "atkFisico": 9,
+          "atkMagico": 9,
+          "physicalDamageReductionPercent": 0.28,
+          "magicalDamageReductionPercent": 0.28,
+          "nextLevelRequirements": 33
+        },
+        "10": {
+         "pvpDamage": 11,
+         "pvpDamageReduction": 11,
+         "atkFisico": 9,
+         "atkMagico": 9,
+         "physicalDamageReductionPercent": 0.28,
+         "magicalDamageReductionPercent": 0.28,
+         "nextLevelRequirements": 38
+        }
+      }
+    }
+  }
+}
