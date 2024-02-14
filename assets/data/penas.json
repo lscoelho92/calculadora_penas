@@ -55,6 +55,7 @@
         }
       },
       "defVigor": {
+        "label": "[DEF]Vigor",
         "1": {
          "def": 1,
          "nextLevelRequirements": 2
@@ -97,6 +98,7 @@
         }
       },
       "mixEquidade": {
+        "label": "[MIX]Equidade",
         "1": {
          "maxHp": 10,
          "nextLevelRequirements": 2
@@ -141,6 +143,7 @@
     },
     "roxa": {
       "atkValor": {
+        "label": "[ATK]Valor",
         "1": {
          "str": 1,
          "atkFisico": 1,
@@ -203,6 +206,7 @@
         }
     },
       "atkGloria": {
+        "label": "[ATK]Gloria",
         "1": {
          "dex": 1,
          "atkFisico": 1,
@@ -265,6 +269,7 @@
         }
     },
       "atkFe": {
+        "label": "[ATK]Fe",
         "1": {
          "int": 1,
          "atkFisico": 1,
@@ -327,6 +332,7 @@
         }
     },
       "defVirtude": {
+        "label": "[DEF]Virtude",
         "1": {
          "vit": 1,
          "maxHp": 20,
@@ -379,6 +385,7 @@
         }
     },
       "defMisericordia": {
+        "label": "[DEF]Misericordia",
         "1": {
          "def": 2,
          "maxHp": 20,
@@ -431,6 +438,7 @@
         }
     },
       "defAlma": {
+        "label": "[DEF]Alma",
         "1": {
          "def": 2,
          "defMagica": 1,
@@ -483,6 +491,7 @@
         }
     },
       "mixGraca": {
+        "label": "[MIX]Graca",
         "1": {
          "atkFisico": 1,
          "atkMagico": 1,
@@ -545,6 +554,7 @@
         }
     },
       "mixJustica": {
+        "label": "[MIX]Justica",
         "1": {
          "def": 2,
          "atkFisico": 1,
@@ -607,6 +617,7 @@
         }
     },
       "mixVerdade": {
+        "label": "[MIX]Verdade",
         "1": {
          "atkFisicoPercent": 0.28,
          "atkMagicoPercent": 0.28,
@@ -679,6 +690,7 @@
         }
     },
       "mixOrdem": {
+        "label": "[MIX]Ordem",
         "1": {
          "rdFisicoPercent": 0.23,
          "rdMagicoPercent": 0.23,
@@ -743,6 +755,7 @@
    },
     "dourada": {
       "atkCeu": {
+        "label": "[ATK]Ceu",
         "1": {
          "atkFisico": 2,
          "atkMagico": 2,
@@ -815,6 +828,7 @@
         }
     },
       "atkDia": {
+        "label": "[ATK]Dia",
         "1": {
          "ignoresDef": 4,
          "ignoresMDef": 1,
@@ -877,6 +891,7 @@
         }
     },
       "atkTempo": {
+        "label": "[ATK]Tempo",
         "1": {
          "pveDamage": 17,
          "atkFisico": 7,
@@ -959,6 +974,7 @@
         }
     },
       "atkEspaco": {
+        "label": "[ATK]Espaco",
         "1": {
          "pvpDamage": 8,
          "atkFisico": 7,
@@ -1041,6 +1057,7 @@
          }
     },
       "defTerra": {
+        "label": "[DEF]Terra",
         "1": {
          "def": 2,
          "mDef": 1,
@@ -1103,6 +1120,7 @@
         }
     },
       "defNoite": {
+        "label": "[DEF]Noite",
         "1": {
          "def": 2,
          "mDef": 1,
@@ -1165,6 +1183,7 @@
         }
     },
       "defNatureza": {
+        "label": "[DEF]Natureza",
         "1": {
          "pveDamageReduction": 17,
          "def": 6,
@@ -1237,6 +1256,7 @@
         }
       },
       "defDivino": {
+        "label": "[DEF]Divino",
         "1": {
          "pvpDamageReduction": 8,
          "def": 6,
@@ -1309,6 +1329,7 @@
         }
       },
       "mixLuz": {
+        "label": "[MIX]Luz",
         "1": {
          "pvpDamage": 11,
          "pvpDamageReduction": 11,
@@ -1401,6 +1422,7 @@
         }
       },
       "mixEscuridao": {
+        "label": "[MIX]Escuridao",
         "1": {
           "pvpDamage": 11,
           "pvpDamageReduction": 11,
