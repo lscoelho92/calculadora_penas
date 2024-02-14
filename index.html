@@ -13,27 +13,65 @@
       </div>
     </section>
   </div>
-
-  <title>Selecione Suas Penas</title>
-</head>
+<div>
+  <title2>Selecione Suas Penas</title2>
+</div>
 <body>
 
-<label for="pena1">Selecione uma opção:</label>
+<div>
+<label for="pena1">Selecione uma das penas:</label>
 <select id="pena1">
   <option value="opcao1">Opção 1</option>
   <option value="opcao2">Opção 2</option>
   <option value="opcao3">Opção 3</option>
 </select>
+</div>
+<div>
+<label for="pena2">Selecione uma das penas:</label>
+<select id="pena2">
+  <option value="opcao1">Opção 1</option>
+  <option value="opcao2">Opção 2</option>
+  <option value="opcao3">Opção 3</option>
+</select>
+</div>
+<div>
+<label for="pena3">Selecione uma das penas:</label>
+<select id="pena3">
+  <option value="opcao1">Opção 1</option>
+  <option value="opcao2">Opção 2</option>
+  <option value="opcao3">Opção 3</option>
+</select>
+</div>
+<div>
+<label for="pena4">Selecione uma das penas:</label>
+<select id="pena4">
+  <option value="opcao1">Opção 1</option>
+  <option value="opcao2">Opção 2</option>
+  <option value="opcao3">Opção 3</option>
+</select>
+</div>
+<div>
+<label for="pena5">Selecione uma das penas:</label>
+<select id="pena5">
+  <option value="opcao1">Opção 1</option>
+  <option value="opcao2">Opção 2</option>
+  <option value="opcao3">Opção 3</option>
+</select>
+</div>
 
-<script>
-  // Adiciona um ouvinte de evento para detectar quando a seleção é alterada
-  document.getElementById("pena1").addEventListener("change", function() {
-    var selectedOption = this.value; // Obtém o valor da opção selecionada
-    alert("Opção selecionada: " + selectedOption);
+
+<script type="module">
+  import penas from '.\assets\data\penas.json';
+  
+  var dropdown = document.getElementById("pena1");
+
+  penas.forEach(option => {
+    var optionElement = document.createElement("option");
+    optionElement.value = option.value;
+    optionElement.text = option.label;
+    dropdown.appendChild(optionElement);
   });
 </script>
-
-
 
 
 
