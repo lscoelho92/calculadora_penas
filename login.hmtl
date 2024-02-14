@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body>
+
+  <h2>Login</h2>
+
+  <form id="loginForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+
+    <button type="button" onclick="validateLogin()">Login</button>
+  </form>
+
+  <script>
+    function validateLogin() {
+      // Obter valores dos campos de entrada
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Verificar se os campos não estão vazios
+      if (username && password) {
+        // Lógica de autenticação simples (substitua por uma lógica real no servidor)
+        if (username === "seu_usuario" && password === "sua_senha") {
+          alert("Login bem-sucedido!");
+        } else {
+          alert("Login falhou. Verifique seu usuário e senha.");
+        }
+      } else {
+        alert("Por favor, preencha todos os campos.");
+      }
+    }
+  </script>
+
+</body>
+</html>

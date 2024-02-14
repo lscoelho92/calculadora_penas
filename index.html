@@ -13,69 +13,46 @@
       </div>
     </section>
   </div>
-<div>
-  <title2>Selecione Suas Penas</title2>
-</div>
-<body>
+  <div>
+    <h2>Selecione Suas Penas</h2>
+  </div>
 
-<div>
-<label for="pena1">Selecione uma das penas:</label>
-<select id="pena1">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-</div>
-<div>
-<label for="pena2">Selecione uma das penas:</label>
-<select id="pena2">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-</div>
-<div>
-<label for="pena3">Selecione uma das penas:</label>
-<select id="pena3">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-</div>
-<div>
-<label for="pena4">Selecione uma das penas:</label>
-<select id="pena4">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-</div>
-<div>
-<label for="pena5">Selecione uma das penas:</label>
-<select id="pena5">
-  <option value="opcao1">Opção 1</option>
-  <option value="opcao2">Opção 2</option>
-  <option value="opcao3">Opção 3</option>
-</select>
-</div>
+  <div id="selectpenas">
+    <!-- Dropdown para selecionar a label de penas -->
+    <div>
+      <label for="labelPenas">Selecione sua Pena:</label>
+      <select id="labelPenas"></select>
+    </div>
+  </div>
 
+  <script>
+    fetch('assets/data/penas.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`Erro de rede: ${response.statusText}`);
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log('Dados carregados com sucesso:', data);
 
-<script type="module">
-  import penas from '.\assets\data\penas.json';
-  
-  var dropdown = document.getElementById("pena1");
+        // Preencher a dropdown de labels
+        var labelDropdown = document.getElementById("labelPenas");
+        Object.keys(data.penas).forEach(categoria => {
+          var tiposAtaque = data.penas[categoria];
 
-  penas.forEach(option => {
-    var optionElement = document.createElement("option");
-    optionElement.value = option.value;
-    optionElement.text = option.label;
-    dropdown.appendChild(optionElement);
-  });
-</script>
+          // Preencher a dropdown de tipos de ataque
+          Object.keys(tiposAtaque).forEach(tipo => {
+            var optionElement = document.createElement("option");
+            optionElement.value = tipo;
+            optionElement.text = tiposAtaque[tipo].label;
+            labelDropdown.appendChild(optionElement);
+          });
+        });
+      })
+      .catch(error => console.error('Erro ao carregar opções de penas:', error));
+  </script>
 
-
-
-
-  </body>
   <script src="assets/js/main.js"></script>
+</body>
 </html>
