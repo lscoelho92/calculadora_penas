@@ -4,14 +4,66 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Penas</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .error {
+      border: 2px solid red;
+    }
+
+    .main {
+      background-color: #3498db;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    #selectpenas {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    div {
+      background-color: #fff;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+  </style>
 </head>
 <body>
   <div class="main">
-    <section>
-      <div class="grid">
-        <h1>Calculadora de Penas</h1>
-      </div>
-    </section>
+    <h1>Calculadora de Penas</h1>
   </div>
   <div>
     <h2>Selecione Suas Penas</h2>
@@ -21,23 +73,23 @@
     <!-- Dropdowns para selecionar as labels de penas -->
     <div>
       <label for="labelPenas1">Selecione uma label de penas:</label>
-      <select id="labelPenas1"></select>
+      <select id="labelPenas1" onchange="verificarRepeticao('labelPenas1')"></select>
     </div>
     <div>
       <label for="labelPenas2">Selecione uma label de penas:</label>
-      <select id="labelPenas2"></select>
+      <select id="labelPenas2" onchange="verificarRepeticao('labelPenas2')"></select>
     </div>
     <div>
       <label for="labelPenas3">Selecione uma label de penas:</label>
-      <select id="labelPenas3"></select>
+      <select id="labelPenas3" onchange="verificarRepeticao('labelPenas3')"></select>
     </div>
     <div>
       <label for="labelPenas4">Selecione uma label de penas:</label>
-      <select id="labelPenas4"></select>
+      <select id="labelPenas4" onchange="verificarRepeticao('labelPenas4')"></select>
     </div>
     <div>
       <label for="labelPenas5">Selecione uma label de penas:</label>
-      <select id="labelPenas5"></select>
+      <select id="labelPenas5" onchange="verificarRepeticao('labelPenas5')"></select>
     </div>
   </div>
 
@@ -52,9 +104,19 @@
       .then((data) => {
         console.log('Dados carregados com sucesso:', data);
 
-        // Iterar sobre cada dropdown
-        for (let i = 1; i <= 5; i++) {
-          var labelDropdown = document.getElementById(`labelPenas${i}`);
+        // Arrays para armazenar as opções utilizadas em cada dropdown
+        var opcoesUtilizadas = {
+          labelPenas1: [],
+          labelPenas2: [],
+          labelPenas3: [],
+          labelPenas4: [],
+          labelPenas5: []
+        };
+
+        // Função para preencher as opções em uma dropdown
+        function preencherDropdown(dropdownId) {
+          var labelDropdown = document.getElementById(dropdownId);
+
           Object.keys(data.penas).forEach(categoria => {
             var tiposAtaque = data.penas[categoria];
 
@@ -67,6 +129,36 @@
             });
           });
         }
+
+        // Função para verificar a repetição e aplicar a classe de erro
+        window.verificarRepeticao = function (dropdownId) {
+          var labelDropdown = document.getElementById(dropdownId);
+          var valorSelecionado = labelDropdown.value;
+
+          // Resetar todas as classes de erro
+          Object.keys(opcoesUtilizadas).forEach(key => {
+            document.getElementById(key).classList.remove("error");
+          });
+
+          // Verificar se o valor já foi selecionado em outra dropdown
+          Object.keys(opcoesUtilizadas).forEach(key => {
+            if (key !== dropdownId && opcoesUtilizadas[key].includes(valorSelecionado)) {
+              // Aplicar a classe de erro à dropdown atual e resetar a opção selecionada
+              labelDropdown.classList.add("error");
+              labelDropdown.value = '';
+            } else {
+              // Adicionar a opção ao array de opções utilizadas globalmente
+              opcoesUtilizadas[key].push(valorSelecionado);
+            }
+          });
+        }
+
+        // Preencher cada dropdown
+        preencherDropdown('labelPenas1');
+        preencherDropdown('labelPenas2');
+        preencherDropdown('labelPenas3');
+        preencherDropdown('labelPenas4');
+        preencherDropdown('labelPenas5');
       })
       .catch(error => console.error('Erro ao carregar opções de penas:', error));
   </script>
