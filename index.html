@@ -13,6 +13,31 @@
       </div>
     </section>
   </div>
+
+  <title>Selecione Suas Penas</title>
+</head>
+<body>
+
+<label for="pena1">Selecione uma opção:</label>
+<select id="pena1">
+  <option value="opcao1">Opção 1</option>
+  <option value="opcao2">Opção 2</option>
+  <option value="opcao3">Opção 3</option>
+</select>
+
+<script>
+  // Adiciona um ouvinte de evento para detectar quando a seleção é alterada
+  document.getElementById("pena1").addEventListener("change", function() {
+    var selectedOption = this.value; // Obtém o valor da opção selecionada
+    alert("Opção selecionada: " + selectedOption);
+  });
+</script>
+
+
+
+
+
+
   </body>
   <script src="assets/js/main.js"></script>
 </html>
