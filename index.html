@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
   <title>Calculadora de Penas</title>
 </head>
 <body>
@@ -10,9 +11,67 @@
     <section id="sectionPenas">
       <div class="grid">
         <h1>Calculadora</h1>
+
+        <div class="valk-choice-container">
+          <button id="btn-choice-atq">Ataque</button>
+          <button id="btn-choice-def">Defesa</button>
+        </div>
+
+        <div id="container-choice-ataque">
+          VALK DE ATAQUE
+
+          <div>
+            <label for="labelPenasAtq1">Selecione uma:</label>
+            <select id="labelPenasAtq1"></select>
+          </div>
+          <div>
+            <label for="labelPenas2">Selecione uma:</label>
+            <select id="labelPenas2" onchange="verificarRepeticao('labelPenas2')"></select>
+          </div>
+          <div>
+            <label for="labelPenas3">Selecione uma:</label>
+            <select id="labelPenas3" onchange="verificarRepeticao('labelPenas3')"></select>
+          </div>
+          <div>
+            <label for="labelPenas4">Selecione uma:</label>
+            <select id="labelPenas4" onchange="verificarRepeticao('labelPenas4')"></select>
+          </div>
+          <div>
+            <label for="labelPenas5">Selecione uma:</label>
+            <select id="labelPenas5" onchange="verificarRepeticao('labelPenas5')"></select>
+          </div>
+        </div>
+        <div id="container-choice-defesa">
+          VALK DE DEFESA
+
+
+          <div>
+            <label for="labelPenas1">Selecione uma:</label>
+            <select id="labelPenas1" onchange="verificarRepeticao('labelPenas1')"></select>
+          </div>
+          <div>
+            <label for="labelPenas2">Selecione uma:</label>
+            <select id="labelPenas2" onchange="verificarRepeticao('labelPenas2')"></select>
+          </div>
+          <div>
+            <label for="labelPenas3">Selecione uma:</label>
+            <select id="labelPenas3" onchange="verificarRepeticao('labelPenas3')"></select>
+          </div>
+          <div>
+            <label for="labelPenas4">Selecione uma:</label>
+            <select id="labelPenas4" onchange="verificarRepeticao('labelPenas4')"></select>
+          </div>
+          <div>
+            <label for="labelPenas5">Selecione uma:</label>
+            <select id="labelPenas5" onchange="verificarRepeticao('labelPenas5')"></select>
+          </div>
+        </div>
       </div>
     </section>
   </div>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/selects.js"></script>
 </body>
 </html>
+
+
