@@ -3,6 +3,7 @@
     "azul": {
       "atkFuria": {
         "label": "[ATK]Furia",
+        "category": "atk",
         "1": {
          "atkFisico": 1,
          "atkMagico": 1,
@@ -56,6 +57,7 @@
       },
       "defVigor": {
         "label": "[DEF]Vigor",
+        "category": "def",
         "1": {
          "def": 1,
          "nextLevelRequirements": 2
@@ -99,6 +101,7 @@
       },
       "mixEquidade": {
         "label": "[MIX]Equidade",
+        "category": "mix",
         "1": {
          "maxHp": 10,
          "nextLevelRequirements": 2
@@ -144,6 +147,7 @@
     "roxa": {
       "atkValor": {
         "label": "[ATK]Valor",
+        "category": "atk",
         "1": {
          "str": 1,
          "atkFisico": 1,
@@ -207,6 +211,7 @@
     },
       "atkGloria": {
         "label": "[ATK]Gloria",
+        "category": "atk",
         "1": {
          "dex": 1,
          "atkFisico": 1,
@@ -270,6 +275,7 @@
     },
       "atkFe": {
         "label": "[ATK]Fe",
+        "category": "atk",
         "1": {
          "int": 1,
          "atkFisico": 1,
@@ -333,6 +339,7 @@
     },
       "defVirtude": {
         "label": "[DEF]Virtude",
+        "category": "def",
         "1": {
          "vit": 1,
          "maxHp": 20,
@@ -386,6 +393,7 @@
     },
       "defMisericordia": {
         "label": "[DEF]Misericordia",
+        "category": "def",
         "1": {
          "def": 2,
          "maxHp": 20,
@@ -439,6 +447,7 @@
     },
       "defAlma": {
         "label": "[DEF]Alma",
+        "category": "def",
         "1": {
          "def": 2,
          "defMagica": 1,
@@ -492,6 +501,7 @@
     },
       "mixGraca": {
         "label": "[MIX]Graca",
+        "category": "mix",
         "1": {
          "atkFisico": 1,
          "atkMagico": 1,
@@ -555,6 +565,7 @@
     },
       "mixJustica": {
         "label": "[MIX]Justica",
+        "category": "mix",
         "1": {
          "def": 2,
          "atkFisico": 1,
@@ -618,6 +629,7 @@
     },
       "mixVerdade": {
         "label": "[MIX]Verdade",
+        "category": "mix",
         "1": {
          "atkFisicoPercent": 0.28,
          "atkMagicoPercent": 0.28,
@@ -691,6 +703,7 @@
     },
       "mixOrdem": {
         "label": "[MIX]Ordem",
+        "category": "mix",
         "1": {
          "rdFisicoPercent": 0.23,
          "rdMagicoPercent": 0.23,
@@ -756,6 +769,7 @@
     "dourada": {
       "atkCeu": {
         "label": "[ATK]Ceu",
+        "category": "atk",
         "1": {
          "atkFisico": 2,
          "atkMagico": 2,
@@ -829,6 +843,7 @@
     },
       "atkDia": {
         "label": "[ATK]Dia",
+        "category": "atk",
         "1": {
          "ignoresDef": 4,
          "ignoresMDef": 1,
@@ -892,6 +907,7 @@
     },
       "atkTempo": {
         "label": "[ATK]Tempo",
+        "category": "atk",
         "1": {
          "pveDamage": 17,
          "atkFisico": 7,
@@ -975,6 +991,7 @@
     },
       "atkEspaco": {
         "label": "[ATK]Espaco",
+        "category": "atk",
         "1": {
          "pvpDamage": 8,
          "atkFisico": 7,
@@ -1058,6 +1075,7 @@
     },
       "defTerra": {
         "label": "[DEF]Terra",
+        "category": "def",
         "1": {
          "def": 2,
          "mDef": 1,
@@ -1121,6 +1139,7 @@
     },
       "defNoite": {
         "label": "[DEF]Noite",
+        "category": "def",
         "1": {
          "def": 2,
          "mDef": 1,
@@ -1184,6 +1203,7 @@
     },
       "defNatureza": {
         "label": "[DEF]Natureza",
+        "category": "def",
         "1": {
          "pveDamageReduction": 17,
          "def": 6,
@@ -1257,6 +1277,7 @@
       },
       "defDivino": {
         "label": "[DEF]Divino",
+        "category": "def",
         "1": {
          "pvpDamageReduction": 8,
          "def": 6,
@@ -1330,6 +1351,7 @@
       },
       "mixLuz": {
         "label": "[MIX]Luz",
+        "category": "mix",
         "1": {
          "pvpDamage": 11,
          "pvpDamageReduction": 11,
@@ -1423,6 +1445,7 @@
       },
       "mixEscuridao": {
         "label": "[MIX]Escuridao",
+        "category": "mix",
         "1": {
           "pvpDamage": 11,
           "pvpDamageReduction": 11,
