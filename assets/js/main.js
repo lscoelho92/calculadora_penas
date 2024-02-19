@@ -12,21 +12,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     return data;
   };
 
-  const showAtaqueContainer = () => {
-    containerAtaque.classList.remove('hidden');
-    containerDefesa.classList.add('hidden');
-      };
-
-  const showDefesaContainer = () => {
-    containerAtaque.classList.add('hidden');
-    containerDefesa.classList.remove('hidden');
-      };
+  const toggleSelectsContainer = (penaType) => {
+    if(penaType === 'atq') {
+      containerAtaque.classList.remove('hidden');
+      containerDefesa.classList.add('hidden');
+    } else {
+      containerAtaque.classList.add('hidden');
+      containerDefesa.classList.remove('hidden');
+    }
+  }
 
   const penas = await getData(penasPath);
 
-  buttonChoiceAtq.addEventListener('click', showAtaqueContainer);
-  buttonChoiceDef.addEventListener('click', showDefesaContainer);
-
-
-  hideContainers();
+  buttonChoiceAtq.addEventListener('click', () => toggleSelectsContainer('atq'));
+  buttonChoiceDef.addEventListener('click', () => toggleSelectsContainer('def'));
 });
