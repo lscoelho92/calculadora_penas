@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  width: 768px;
+  height: auto;
+}
+
+.valk-choice-container,
+.container-choice-ataque {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.valk-container {
+  display: table-row;
+  flex-direction: column;
+  font-size: medium;
+  justify-content: space-around;
+  margin: 1;
+  padding: 0;
+  width: 50%;
+  }
+
+.error {
+  border: 2px solid red;
+}
+
+.main {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #333;
+}
+
+.selectpenas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+div {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#menu {
+  margin-bottom: 10px;
+}
+
+#conteudo {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  padding: 30px;
+  cursor: pointer;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: #555;
+  background-color: #fff;
+}

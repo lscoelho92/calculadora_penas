@@ -1,0 +1,217 @@
+
+<div id="conteudo">
+  <div id="pagina1" class="conteudo-pagina">
+    <p>
+      <div>
+        <div class="main">
+          <h1>Calculadora de Penas</h1>
+        </div>
+        <h2>Selecione Suas Penas</h2>
+      </div>
+    
+      <div id="selectpenas">
+        <!-- Dropdowns para selecionar as labels de penas -->
+        <div>
+          <label for="labelPenasAtq1">Selecione uma pena:</label>
+          <select id="labelPenasAtq1" onchange="verificarRepeticao('labelPenas1')"></select>
+        </div>
+        <div>
+          <label for="labelPenasAtq2">Selecione uma pena:</label>
+          <select id="labelPenasAtq2" onchange="verificarRepeticao('labelPenas2')"></select>
+        </div>
+        <div>
+          <label for="labelPenasAtq3">Selecione uma:</label>
+          <select id="labelPenasAtq3" onchange="verificarRepeticao('labelPenas3')"></select>
+        </div>
+        <div>
+          <label for="labelPenasAtq4">Selecione uma:</label>
+          <select id="labelPenasAtq4" onchange="verificarRepeticao('labelPenas4')"></select>
+        </div>
+        <div>
+          <label for="labelPenasAtq5">Selecione uma:</label>
+          <select id="labelPenasAtq5" onchange="verificarRepeticao('labelPenas5')"></select>
+        </div>
+      </div>
+    
+      <script>
+        fetch('assets/data/penas.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error(`Erro de rede: ${response.statusText}`);
+            }
+            return response.json();
+          })
+          .then((data) => {
+            console.log('Dados carregados com sucesso:', data);
+    
+            // Arrays para armazenar as opções utilizadas em cada dropdown
+            var opcoesUtilizadas = {
+              labelPenas1: [],
+              labelPenas2: [],
+              labelPenas3: [],
+              labelPenas4: [],
+              labelPenas5: []
+            };
+    
+            // Função para preencher as opções em uma dropdown
+            function preencherDropdown(dropdownId) {
+              var labelDropdown = document.getElementById(dropdownId);
+    
+              Object.keys(data.penas).forEach(categoria => {
+                var tiposAtaque = data.penas[categoria];
+    
+                // Preencher a dropdown de tipos de ataque
+                Object.keys(tiposAtaque).forEach(tipo => {
+                  var optionElement = document.createElement("option");
+                  optionElement.value = tipo;
+                  optionElement.text = tiposAtaque[tipo].label;
+                  labelDropdown.appendChild(optionElement);
+                });
+              });
+            }
+    
+            // Função para verificar a repetição e aplicar a classe de erro
+            window.verificarRepeticao = function (dropdownId) {
+              var labelDropdown = document.getElementById(dropdownId);
+              var valorSelecionado = labelDropdown.value;
+    
+              // Resetar todas as classes de erro
+              Object.keys(opcoesUtilizadas).forEach(key => {
+                document.getElementById(key).classList.remove("error");
+              });
+    
+              // Verificar se o valor já foi selecionado em outra dropdown
+              Object.keys(opcoesUtilizadas).forEach(key => {
+                if (key !== dropdownId && opcoesUtilizadas[key].includes(valorSelecionado)) {
+                  // Aplicar a classe de erro à dropdown atual e resetar a opção selecionada
+                  labelDropdown.classList.add("error");
+                  labelDropdown.value = '';
+                } else {
+                  // Adicionar a opção ao array de opções utilizadas globalmente
+                  opcoesUtilizadas[key].push(valorSelecionado);
+                }
+              });
+            }
+    
+            // Preencher cada dropdown
+            preencherDropdown('labelPenas1');
+            preencherDropdown('labelPenas2');
+            preencherDropdown('labelPenas3');
+            preencherDropdown('labelPenas4');
+            preencherDropdown('labelPenas5');
+          })
+          .catch(error => console.error('Erro ao carregar opções de penas:', error));
+      </script>
+    </p>
+  </div>
+
+
+
+
+
+
+
+  <div id="pagina6" class="conteudo-pagina hidden">
+    <p>
+      <div>
+        <div class="main">
+          <h1>Calculadora de Penas</h1>
+        </div>
+        <h2>Selecione Suas Penas</h2>
+      </div>
+    
+      <div id="selectpenas">
+        <!-- Dropdowns para selecionar as labels de penas -->
+        <div>
+          <label for="labelPenas1">Selecione uma:</label>
+          <select id="labelPenas1" onchange="verificarRepeticao('labelPenas1')"></select>
+        </div>
+        <div>
+          <label for="labelPenas2">Selecione uma:</label>
+          <select id="labelPenas2" onchange="verificarRepeticao('labelPenas2')"></select>
+        </div>
+        <div>
+          <label for="labelPenas3">Selecione uma:</label>
+          <select id="labelPenas3" onchange="verificarRepeticao('labelPenas3')"></select>
+        </div>
+        <div>
+          <label for="labelPenas4">Selecione uma:</label>
+          <select id="labelPenas4" onchange="verificarRepeticao('labelPenas4')"></select>
+        </div>
+        <div>
+          <label for="labelPenas5">Selecione uma:</label>
+          <select id="labelPenas5" onchange="verificarRepeticao('labelPenas5')"></select>
+        </div>
+      </div>
+    
+      <script>
+        fetch('assets/data/penas.json')
+          .then(response => {
+            if (!response.ok) {
+              throw new Error(`Erro de rede: ${response.statusText}`);
+            }
+            return response.json();
+          })
+          .then((data) => {
+            console.log('Dados carregados com sucesso:', data);
+    
+            // Arrays para armazenar as opções utilizadas em cada dropdown
+            var opcoesUtilizadas = {
+              labelPenas1: [],
+              labelPenas2: [],
+              labelPenas3: [],
+              labelPenas4: [],
+              labelPenas5: []
+            };
+    
+            // Função para preencher as opções em uma dropdown
+            function preencherDropdown(dropdownId) {
+              var labelDropdown = document.getElementById(dropdownId);
+    
+              Object.keys(data.penas).forEach(categoria => {
+                var tiposAtaque = data.penas[categoria];
+    
+                // Preencher a dropdown de tipos de ataque
+                Object.keys(tiposAtaque).forEach(tipo => {
+                  var optionElement = document.createElement("option");
+                  optionElement.value = tipo;
+                  optionElement.text = tiposAtaque[tipo].label;
+                  labelDropdown.appendChild(optionElement);
+                });
+              });
+            }
+    
+            // Função para verificar a repetição e aplicar a classe de erro
+            window.verificarRepeticao = function (dropdownId) {
+              var labelDropdown = document.getElementById(dropdownId);
+              var valorSelecionado = labelDropdown.value;
+    
+              // Resetar todas as classes de erro
+              Object.keys(opcoesUtilizadas).forEach(key => {
+                document.getElementById(key).classList.remove("error");
+              });
+    
+              // Verificar se o valor já foi selecionado em outra dropdown
+              Object.keys(opcoesUtilizadas).forEach(key => {
+                if (key !== dropdownId && opcoesUtilizadas[key].includes(valorSelecionado)) {
+                  // Aplicar a classe de erro à dropdown atual e resetar a opção selecionada
+                  labelDropdown.classList.add("error");
+                  labelDropdown.value = '';
+                } else {
+                  // Adicionar a opção ao array de opções utilizadas globalmente
+                  opcoesUtilizadas[key].push(valorSelecionado);
+                }
+              });
+            }
+    
+            // Preencher cada dropdown
+            preencherDropdown('labelPenas1');
+            preencherDropdown('labelPenas2');
+            preencherDropdown('labelPenas3');
+            preencherDropdown('labelPenas4');
+            preencherDropdown('labelPenas5');
+          })
+          .catch(error => console.error('Erro ao carregar opções de penas:', error));
+      </script>
+    </p>
+  </div>
